@@ -33,7 +33,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
           <Link to='/' className='brand-logo'>
             Amir Khakipour
           </Link>
-          {/* {!loading && (<Fragment>{isAuthenticated?authLinks:guestLinks}</Fragment>)} */}
+          {!loading && (<Fragment>{isAuthenticated?authLinks:guestLinks}</Fragment>)}
         </div>
       </nav>
     </Fragment>
