@@ -31,57 +31,57 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   }
   return (
     <Fragment>
-      <div className='row'>
-        <form className='col s12' onSubmit={e => onSubmit(e)}>
-          <div className='row'>
-            <div className='input-field col s12'>
+      <div className=''>
+        <form className='' onSubmit={e => onSubmit(e)}>
+          <div className=''>
+            <div className=''>
               <input
                 value={name}
                 name='name'
                 type='text'
-                className='validate'
+                className=''
                 placeholder='Name'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <div className='row'>
-            <div className='input-field col s12'>
+          <div className=''>
+            <div className=''>
               <input
                 value={email}
                 name='email'
                 type='email'
-                className='validate'
+                className=''
                 placeholder='Email'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <div className='row'>
-            <div className='input-field col s12'>
+          <div className=''>
+            <div className=''>
               <input
                 value={password}
                 name='password'
                 type='password'
-                className='validate'
+                className=''
                 placeholder='Password'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <div className='row'>
-            <div className='input-field col s12'>
+          <div className=''>
+            <div className=''>
               <input
                 value={password2}
                 name='password2'
                 type='password'
-                className='validate'
+                className=''
                 placeholder='Repete Password'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <input type='submit' className='btn' value='Register' />
+          <input type='submit' className='' value='Register' />
         </form>
       </div>
     </Fragment>
