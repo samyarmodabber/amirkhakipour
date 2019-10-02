@@ -25,34 +25,34 @@ const Login = ({ login, isAuthenticated }) => {
   }
   return (
     <Fragment>
-      <div className='row'>
+      <div className=''>
         <h3>Login</h3>
-        <form className='col s12' onSubmit={e => onSubmit(e)}>
-          <div className='row'>
-            <div className='input-field col s12'>
+        <form className='' onSubmit={e => onSubmit(e)}>
+          <div className=''>
+            <div className=''>
               <input
                 value={email}
                 name='email'
                 type='email'
-                className='validate'
+                className=''
                 placeholder='Email'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <div className='row'>
-            <div className='input-field col s12'>
+          <div className=''>
+            <div className=''>
               <input
                 value={password}
                 name='password'
                 type='password'
-                className='validate'
+                className=''
                 placeholder='Password'
                 onChange={e => onChange(e)}
               />
             </div>
           </div>
-          <input type='submit' className='btn' value='Login' />
+          <input type='submit' className='' value='Login' />
         </form>
       </div>
     </Fragment>
